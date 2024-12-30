@@ -4,7 +4,7 @@
 In this repository there is the surce code for the application `molecule_solubility_app` which allows the user to input a SMILE formula, e.g. the aspirin  CC(=O)OC1=CC=CC=C1C(=O)O, and it predicts its solubility (in log scale). We've trained a simple linear model to predict the solubility value from some features. 
 
 ### Use the app
-Here is the link at the app: https://share.streamlit.io/leonardolavagna/melecule_solubility_app/main/solubility-app.py. On the left hend side it is possible to input one ore more SMILE formula (divided by a newline) and then the system will provide the solubility prediction based on some molecular descriptors. Notice that at the beginning some default SMILE formula are provided.
+Here is the link at the app: [https://moleculesolubilityprediction.streamlit.app](https://moleculesolubilityprediction.streamlit.app/). On the left hend side it is possible to input one ore more SMILE formula (divided by a newline) and then the system will provide the solubility prediction based on some molecular descriptors. Notice that at the beginning some default SMILE formula are provided.
 
 ### What's in here?
 - The **dataset** I've worked on `delaney_solubility_with_descriptors.csv`
