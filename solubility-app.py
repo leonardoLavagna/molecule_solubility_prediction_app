@@ -62,7 +62,7 @@ def generate(smiles, verbose=False):
 
 image = Image.open('solubility-logo.jpg')
 
-st.image(image, use_container_width=True)
+st.image(image)
 
 st.write("""
 # Molecular Solubility Prediction Web App
